@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[receive]
+	denyCurrentBranch = ignore
+[remote "origin"]
+	url = achbogga/basic_cnn
+	fetch = +refs/heads/*:refs/remotes/origin/*
